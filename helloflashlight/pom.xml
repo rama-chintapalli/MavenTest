@@ -35,6 +35,7 @@
                 <artifactId>android-maven-plugin</artifactId>
                 <configuration>
                     <sdk>
+					    <path>${env.ANROID_HOME}</path>
                         <!-- platform or api level (api level 4 = platform 1.6)-->
                         <platform>8</platform>
                     </sdk>
