@@ -7,7 +7,7 @@
     <packaging>apk</packaging>
     <name>HelloFlashlight</name>
     <properties>
-	   <android-sdk-path>C:\Users\rama6471\android-sdks</android-sdk-path>
+	   <android-sdk-path>${env.ANDROID_HOME}</android-sdk-path>
 	</properties>
     <dependencies>
         <dependency>
